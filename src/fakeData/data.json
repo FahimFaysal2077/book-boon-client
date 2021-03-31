@@ -1,0 +1,91 @@
+[{
+    "id": 1,
+    "bookName": "Learn to Program",
+    "author": "Chris Pine",
+    "image": "https://i.ibb.co/YdvJtfx/book-1.jpg",
+    "price": "$7.24"
+  }, {
+    "id": 2,
+    "bookName": "Production Go",
+    "author": "Herman Schaaf",
+    "image": "https://i.ibb.co/rxTpjzZ/book-2.png",
+    "price": "$3.61"
+  }, {
+    "id": 3,
+    "bookName": "Lab Guide",
+    "author": "Anton Epple",
+    "image": "https://i.ibb.co/QHCFwbz/book-3.png",
+    "price": "$5.86"
+  }, {
+    "id": 4,
+    "bookName": "Python Programming",
+    "author": "Ashwin Pajank",
+    "image": "https://i.ibb.co/6PHN1mM/book-4.png",
+    "price": "$8.94"
+  }, {
+    "id": 5,
+    "bookName": "JavaScript",
+    "author": "Axel Rauschma",
+    "image": "https://i.ibb.co/RzyxKh3/book-5.jpg",
+    "price": "$9.39"
+  }, {
+    "id": 6,
+    "bookName": "Advanced Python Tips",
+    "author": "Rahul Agarwal",
+    "image": "https://i.ibb.co/RzcyNqZ/book-6.jpg",
+    "price": "$4.12"
+  }, {
+    "id": 7,
+    "bookName": "Learn Programming",
+    "author": "Antti Salonen",
+    "image": "https://i.ibb.co/TmSN0Cs/book-7.jpg",
+    "price": "$3.93"
+  }, {
+    "id": 8,
+    "bookName": "Spring In Action",
+    "author": "Craig Wells",
+    "image": "https://i.ibb.co/Trw452J/book-8.jpg",
+    "price": "$5.22"
+  }, {
+    "id": 9,
+    "bookName": "Modern C",
+    "author": "Jens Gustedt",
+    "image": "https://i.ibb.co/qD3wW3B/book-9.jpg",
+    "price": "$4.78"
+  }, {
+    "id": 10,
+    "bookName": "Command Line",
+    "author": "Michael Hard",
+    "image": "https://i.ibb.co/VxpqMpN/book-10.png",
+    "price": "$2.39"
+  }, {
+    "id": 11,
+    "bookName": "Deep JavaScript",
+    "author": "Dr. Axel Rasum",
+    "image": "https://i.ibb.co/CMwpzwK/book-11.jpg",
+    "price": "$1.51"
+  }, {
+    "id": 12,
+    "bookName": "Eloquent JavaScript",
+    "author": "Marijn Haverb",
+    "image": "https://i.ibb.co/3m1WrGK/book-12.jpg",
+    "price": "$1.51"
+  }, {
+    "id": 13,
+    "bookName": "Coffee Break Python Slice",
+    "author": "Christian Mayer",
+    "image": "https://i.ibb.co/kJkKq1z/book-13.jpg",
+    "price": "$7.94"
+  }, {
+    "id": 14,
+    "bookName": "Your First Year In Code",
+    "author": "Isaac Lyman",
+    "image": "https://i.ibb.co/jMJSsDr/book-14.jpg",
+    "price": "$1.37"
+  }, {
+    "id": 15,
+    "bookName": "Python Basics",
+    "author": "Real Python",
+    "image": "https://i.ibb.co/0VqZwMz/book-15.jpg",
+    "price": "$5.25"
+  }]

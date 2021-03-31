@@ -1,0 +1,5 @@
+.book-card {
+    position: absolute;
+    left: 20%;
+    transform: translate(-50%, 25%);
+}
