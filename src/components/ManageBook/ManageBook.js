@@ -5,13 +5,13 @@ const ManageBook = ({book}) => {
     const [manageBook, setManageBook] = useState({});
 
     useEffect(() => {
-        fetch('http://localhost:5000/books')
+        fetch('https://warm-badlands-03887.herokuapp.com/books')
         .then(res => res.json())
         .then(data => setManageBook(data))
     }, [])
 
     const deleteBook = id => {
-        fetch(`http://localhost:5000/deleteBook/${id}`, {
+        fetch(`https://warm-badlands-03887.herokuapp.com/deleteBook/${id}`, {
             method: 'DELETE',
 
         })

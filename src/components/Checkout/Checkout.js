@@ -50,7 +50,7 @@ const Checkout = () => {
     const [book, setBook] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/book/${bookId}`)
+        fetch(`https://warm-badlands-03887.herokuapp.com/book/${bookId}`)
             .then(res => res.json())
             .then(data => setBook(data));
     }, [bookId]);
@@ -67,7 +67,7 @@ const Checkout = () => {
 
     const handleOrderPlaced = () => {
         const orderDetails = { ...loggedInUser, name: book.bookName, price: book.price, orderTime: new Date() };
-        fetch('http://localhost:5000/addOrder', {
+        fetch('https://warm-badlands-03887.herokuapp.com/addOrder', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

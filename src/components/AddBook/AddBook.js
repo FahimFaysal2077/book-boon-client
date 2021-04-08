@@ -15,7 +15,7 @@ const AddBook = () => {
             price: data.price,
             image: imageURL
         };
-        const url = `http://localhost:5000/addBook`
+        const url = `https://warm-badlands-03887.herokuapp.com/addBook`
         console.log(bookData)
         fetch(url, {
             method: 'POST',
