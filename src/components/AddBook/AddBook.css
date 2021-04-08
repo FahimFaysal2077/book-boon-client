@@ -1,0 +1,19 @@
+.add-book-btn {
+    top: 50%;
+    left: 50%;
+    transform: translate(105%, -210%);
+}
+.add-book-btn-input {
+    border-radius: 10px;
+    background-color: #08a195;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    height: 40px;
+    cursor: pointer;
+}
+.add-book-btn-input:hover {
+    background-color: rgb(32, 94, 211);
+}

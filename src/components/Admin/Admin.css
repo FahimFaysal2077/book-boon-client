@@ -1,0 +1,39 @@
+.tab {
+    border-radius: 10px;
+    background-color: rgb(244,247,252,1);
+    position: absolute;
+    width: 1718px;
+    height: 700px;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid blue;
+}
+.detail {
+    background: rgb(255,255,255,1);
+    border-radius: 10px;
+    position: absolute;
+    width: 1352px;
+    height: auto;
+    top: 27%;
+    left: 59%;
+    transform: translate(-50%, -50%);
+    shape-outside: 21px;
+}
+.cart {
+    border-radius: 10px;
+    background-color: #74ccc8;
+    width: 300px;
+    height: 600px;
+    top: 86%;
+    left:50%;
+    transform: translate(10%, 13%);
+}
+.cart-2 {
+    width: 400px;
+    height: 200px;
+    top: 86%;
+    left:22%;
+    transform: translate(-200%, -5%);
+    
+}

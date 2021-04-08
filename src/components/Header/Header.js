@@ -4,6 +4,7 @@ import { UserContext } from '../../App';
 import logo from '../../images/icons/logo.png';
 import './Header.css';
 
+
 const Header = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
@@ -28,7 +29,7 @@ const Header = () => {
                         <Link to="/deals">Deals</Link>
                     </li>
                     <li>
-                        <Link className="btn-book" to="/login">Login</Link>
+                        <Link className="btn-book" to="/login">{loggedInUser?.email? 'Checkout' || loggedInUser.email: "Login"}</Link>
                     </li>
 
                 </ul>

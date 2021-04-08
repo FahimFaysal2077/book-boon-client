@@ -1,0 +1,14 @@
+.table {
+    width: 1000px !important;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+.btn-2 {
+    position: absolute;
+    left: 93%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+}
